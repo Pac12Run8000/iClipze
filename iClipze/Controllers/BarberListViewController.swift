@@ -198,11 +198,23 @@ extension BarberListViewController {
     }
     
     
-    private func callBarberShop(phoneNumber:String) {
+    private func callBarberShop(phoneNumber:String)  {
         if let phone = phoneNumber as? String, let formattedPhone = self.formatPhoneNumberForCall(input: phone) as? String, let formattedPhoneString = "tel://\(formattedPhone)" as? String, let formattedPhoneUrl = URL(string: formattedPhoneString) {
             UIApplication.shared.open(formattedPhoneUrl, options: [:], completionHandler: nil)
         }
     }
+}
+
+// MARK:- Extension for phone error
+extension BarberListViewController {
+    
+    private func displayError(message:String) {
+        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        alertController.addAction(alertAction)
+        present(alertController, animated: true, completion: nil)
+    }
+    
 }
 
 
