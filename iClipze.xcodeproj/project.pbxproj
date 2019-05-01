@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09124BE0223817F5006B6984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124BDF223817F5006B6984 /* AppDelegate.swift */; };
+		09124BE2223817F5006B6984 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124BE1223817F5006B6984 /* LocationViewController.swift */; };
+		09124BE5223817F5006B6984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09124BE3223817F5006B6984 /* Main.storyboard */; };
+		09124BE7223817F7006B6984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09124BE6223817F7006B6984 /* Assets.xcassets */; };
+		09124BEA223817F7006B6984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09124BE8223817F7006B6984 /* LaunchScreen.storyboard */; };
+		09124BF62238DFBC006B6984 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124BF52238DFBC006B6984 /* Extensions.swift */; };
+		09124BF9223A28E7006B6984 /* CurrentUserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124BF8223A28E7006B6984 /* CurrentUserAnnotation.swift */; };
+		09192840227A0CD1001B7DDF /* YelpAPIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919283F227A0CD1001B7DDF /* YelpAPIConstants.swift */; };
+		092688202279FFDB00108147 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0926881F2279FFDB00108147 /* .gitignore */; };
+		09400052223B566F000D8420 /* YelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09400051223B566F000D8420 /* YelpAPIClient.swift */; };
+		09400056223B75CE000D8420 /* YelpAPIConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09400055223B75CE000D8420 /* YelpAPIConvenience.swift */; };
+		09400058223F47E3000D8420 /* BusinessEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09400057223F47E3000D8420 /* BusinessEntity.swift */; };
+		0940005A22404821000D8420 /* BarberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940005922404821000D8420 /* BarberListViewController.swift */; };
+		0940005C22409DFA000D8420 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940005B22409DFA000D8420 /* ImageService.swift */; };
+		09403DAF2242F00E000ADA51 /* DateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09403DAE2242F00E000ADA51 /* DateTimeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09124BDC223817F5006B6984 /* iClipze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iClipze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09124BDF223817F5006B6984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09124BE1223817F5006B6984 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		09124BE4223817F5006B6984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09124BE6223817F7006B6984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09124BE9223817F7006B6984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09124BEB223817F7006B6984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09124BF52238DFBC006B6984 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		09124BF8223A28E7006B6984 /* CurrentUserAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserAnnotation.swift; sourceTree = "<group>"; };
+		0919283F227A0CD1001B7DDF /* YelpAPIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIConstants.swift; sourceTree = "<group>"; };
+		0926881F2279FFDB00108147 /* .gitignore */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		09400051223B566F000D8420 /* YelpAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIClient.swift; sourceTree = "<group>"; };
+		09400055223B75CE000D8420 /* YelpAPIConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIConvenience.swift; sourceTree = "<group>"; };
+		09400057223F47E3000D8420 /* BusinessEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessEntity.swift; sourceTree = "<group>"; };
+		0940005922404821000D8420 /* BarberListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberListViewController.swift; sourceTree = "<group>"; };
+		0940005B22409DFA000D8420 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		09403DAE2242F00E000ADA51 /* DateTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeViewController.swift; sourceTree = "<group>"; };
+		09403DB022444904000ADA51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09124BD9223817F5006B6984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09124BD3223817F5006B6984 = {
+			isa = PBXGroup;
+			children = (
+				09124BDE223817F5006B6984 /* iClipze */,
+				09124BDD223817F5006B6984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09124BDD223817F5006B6984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09124BDC223817F5006B6984 /* iClipze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09124BDE223817F5006B6984 /* iClipze */ = {
+			isa = PBXGroup;
+			children = (
+				09400050223B5406000D8420 /* YelpAPIClient */,
+				09124BF7223A28BD006B6984 /* Objects */,
+				09124BF42238DF9B006B6984 /* Extensions */,
+				09124BF12238D7D4006B6984 /* Controllers */,
+				09124BDF223817F5006B6984 /* AppDelegate.swift */,
+				09124BE3223817F5006B6984 /* Main.storyboard */,
+				09124BE6223817F7006B6984 /* Assets.xcassets */,
+				09124BE8223817F7006B6984 /* LaunchScreen.storyboard */,
+				09124BEB223817F7006B6984 /* Info.plist */,
+				09403DB022444904000ADA51 /* README.md */,
+				0926881F2279FFDB00108147 /* .gitignore */,
+			);
+			path = iClipze;
+			sourceTree = "<group>";
+		};
+		09124BF12238D7D4006B6984 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09124BE1223817F5006B6984 /* LocationViewController.swift */,
+				0940005922404821000D8420 /* BarberListViewController.swift */,
+				09403DAE2242F00E000ADA51 /* DateTimeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		09124BF42238DF9B006B6984 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09124BF52238DFBC006B6984 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09124BF7223A28BD006B6984 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				09124BF8223A28E7006B6984 /* CurrentUserAnnotation.swift */,
+				09400057223F47E3000D8420 /* BusinessEntity.swift */,
+				0940005B22409DFA000D8420 /* ImageService.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		09400050223B5406000D8420 /* YelpAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				09400051223B566F000D8420 /* YelpAPIClient.swift */,
+				09400055223B75CE000D8420 /* YelpAPIConvenience.swift */,
+				0919283F227A0CD1001B7DDF /* YelpAPIConstants.swift */,
+			);
+			path = YelpAPIClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09124BDB223817F5006B6984 /* iClipze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09124BEE223817F7006B6984 /* Build configuration list for PBXNativeTarget "iClipze" */;
+			buildPhases = (
+				09124BD8223817F5006B6984 /* Sources */,
+				09124BD9223817F5006B6984 /* Frameworks */,
+				09124BDA223817F5006B6984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iClipze;
+			productName = iClipze;
+			productReference = 09124BDC223817F5006B6984 /* iClipze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09124BD4223817F5006B6984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Norbert Grover";
+				TargetAttributes = {
+					09124BDB223817F5006B6984 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 09124BD7223817F5006B6984 /* Build configuration list for PBXProject "iClipze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09124BD3223817F5006B6984;
+			productRefGroup = 09124BDD223817F5006B6984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09124BDB223817F5006B6984 /* iClipze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09124BDA223817F5006B6984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092688202279FFDB00108147 /* .gitignore in Resources */,
+				09124BEA223817F7006B6984 /* LaunchScreen.storyboard in Resources */,
+				09124BE7223817F7006B6984 /* Assets.xcassets in Resources */,
+				09124BE5223817F5006B6984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09124BD8223817F5006B6984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09400058223F47E3000D8420 /* BusinessEntity.swift in Sources */,
+				09400056223B75CE000D8420 /* YelpAPIConvenience.swift in Sources */,
+				09124BE2223817F5006B6984 /* LocationViewController.swift in Sources */,
+				0940005C22409DFA000D8420 /* ImageService.swift in Sources */,
+				09403DAF2242F00E000ADA51 /* DateTimeViewController.swift in Sources */,
+				09124BF62238DFBC006B6984 /* Extensions.swift in Sources */,
+				09124BE0223817F5006B6984 /* AppDelegate.swift in Sources */,
+				09124BF9223A28E7006B6984 /* CurrentUserAnnotation.swift in Sources */,
+				09400052223B566F000D8420 /* YelpAPIClient.swift in Sources */,
+				0940005A22404821000D8420 /* BarberListViewController.swift in Sources */,
+				09192840227A0CD1001B7DDF /* YelpAPIConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09124BE3223817F5006B6984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09124BE4223817F5006B6984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09124BE8223817F7006B6984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09124BE9223817F7006B6984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09124BEC223817F7006B6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09124BED223817F7006B6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09124BEF223817F7006B6984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93TAG27MAJ;
+				INFOPLIST_FILE = iClipze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroverTech.iClipze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		09124BF0223817F7006B6984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93TAG27MAJ;
+				INFOPLIST_FILE = iClipze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroverTech.iClipze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09124BD7223817F5006B6984 /* Build configuration list for PBXProject "iClipze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09124BEC223817F7006B6984 /* Debug */,
+				09124BED223817F7006B6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09124BEE223817F7006B6984 /* Build configuration list for PBXNativeTarget "iClipze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09124BEF223817F7006B6984 /* Debug */,
+				09124BF0223817F7006B6984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09124BD4223817F5006B6984 /* Project object */;
+}
