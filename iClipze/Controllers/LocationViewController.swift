@@ -282,6 +282,7 @@ extension LocationViewController: CLLocationManagerDelegate {
             activityIndicatorView.stopAnimating()
             break
         case CLError.denied:
+            // another test
             print("denied")
             showAuthorizationDisabledAlert()
             break
